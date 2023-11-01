@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@color/b3e5fc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPermiso"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:text="Nombre"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDesc"
+        android:textSize="20dp"
+        android:text="@string/hola_mundo"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtPermiso"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="320dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>
